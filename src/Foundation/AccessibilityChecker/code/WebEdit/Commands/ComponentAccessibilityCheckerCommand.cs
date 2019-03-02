@@ -18,6 +18,7 @@
     using Sitecore.Web.UI.WebControls;
     using Sitecore.Text;
     using Sitecore.StringExtensions;
+    using DreamTeam.Foundation.AccessibilityChecker.Extensions;
 
     [Serializable]
     public class ComponentAccessibilityCheckerCommand : WebEditCommand
@@ -26,6 +27,10 @@
         {
             Assert.ArgumentNotNull(context, "context");
             Item item = context.Items[0];
+            using (new DatabaseSwitcher(Context.ContentDatabase))
+            {
+                var htmlOutputString = item.RenderToString();
+            }
             NameValueCollection expr_40 = new NameValueCollection();
             expr_40["id"] = item.ID.ToString();
             expr_40["language"] = ((Context.Language == null) ? item.Language.ToString() : Context.Language.ToString());

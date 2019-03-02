@@ -282,8 +282,12 @@
       <Link>GlobalSuppressions.cs</Link>
     </Compile>
     <Compile Include="Controllers\AccessibilityCheckerController.cs" />
+    <Compile Include="Extensions\ItemExtensions.cs" />
     <Compile Include="Pipelines\Initialize\InitializeRoutes.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Renderer\ItemRenderer.cs" />
+    <Compile Include="RenderingContext\PageRenderItemDefinitionContext.cs" />
+    <Compile Include="RenderingContext\PerformItemRendering.cs" />
     <Compile Include="WebEdit\Commands\FieldAccessibilityCheckerCommand.cs" />
     <Compile Include="WebEdit\Commands\PageAccessibilityCheckerCommand.cs" />
     <Compile Include="WebEdit\Commands\ComponentAccessibilityCheckerCommand.cs" />
