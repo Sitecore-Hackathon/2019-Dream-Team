@@ -1,0 +1,23 @@
+{
+  "name": "dream-team",
+  "version": "1.0.0",
+  "description": "Sitecore Hackathon 2019. Dream Team",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^1.5.2",
+    "gulp": "^3.9.1",
+    "gulp-foreach": "^0.1.0",
+    "gulp-msbuild": "^0.5.5",
+    "gulp-debug": "^2.1.2",
+    "run-sequence": "1.1.4",
+    "xml2js": "^0.4.19"
+  },
+  "devDependencies": {
+    "gulp-nuget-restore": "0.6.0"
+  }
+}
