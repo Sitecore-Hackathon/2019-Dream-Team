@@ -1,0 +1,18 @@
+﻿---
+ID: "acd433cc-e009-49c2-b024-a7ce73face8f"
+Parent: "adc2f26b-849f-4cd1-b5d0-7f7927461176"
+Template: "85adbf5b-e836-4932-a333-fe0f9fa1ed1e"
+Path: /sitecore/templates/Branches/Foundation/DreamTeam/AccessibilityChecker
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190226T164200Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

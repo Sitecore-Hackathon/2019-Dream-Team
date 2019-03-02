@@ -1,0 +1,68 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Foundation", "Foundation", "{565BDB3A-63CF-41C3-93C4-5F4A869276A9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AccessibilityChecker", "AccessibilityChecker", "{E43942DB-EB9F-4E53-97B6-C327F69FD27C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Serialization", "Serialization", "{1BA18A82-2C24-4320-AFC6-C2856050F89D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Project", "Project", "{5059ACC2-D930-4154-B50F-325EAD6AE82D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Website", "Website", "{32F756D3-C24B-4D56-B6B0-73D35793B007}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{0A1766E7-C9ED-415C-ADBB-9CCB7914C6E5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Feature", "Feature", "{4D7CF36F-4B05-4EAB-86BD-DBF938705B70}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DreamTeam.Project.Website", "src\Project\Website\code\DreamTeam.Project.Website.csproj", "{D098E15A-2FAC-46F3-8059-B0007CB57EFF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DreamTeam.Project.Common", "src\Project\Common\code\DreamTeam.Project.Common.csproj", "{BB3C9EE1-BF6B-4A20-A913-DE7D42426AD1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DreamTeam.Foundation.Serialization", "src\Foundation\Serialization\code\DreamTeam.Foundation.Serialization.csproj", "{73E6BCEF-CCDC-4172-B695-6F61CDF8328C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DreamTeam.Foundation.AccessibilityChecker", "src\Foundation\AccessibilityChecker\code\DreamTeam.Foundation.AccessibilityChecker.csproj", "{69D6FC3E-6119-40FF-83D1-FA5D28860682}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D098E15A-2FAC-46F3-8059-B0007CB57EFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D098E15A-2FAC-46F3-8059-B0007CB57EFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D098E15A-2FAC-46F3-8059-B0007CB57EFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D098E15A-2FAC-46F3-8059-B0007CB57EFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB3C9EE1-BF6B-4A20-A913-DE7D42426AD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB3C9EE1-BF6B-4A20-A913-DE7D42426AD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB3C9EE1-BF6B-4A20-A913-DE7D42426AD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB3C9EE1-BF6B-4A20-A913-DE7D42426AD1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73E6BCEF-CCDC-4172-B695-6F61CDF8328C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73E6BCEF-CCDC-4172-B695-6F61CDF8328C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73E6BCEF-CCDC-4172-B695-6F61CDF8328C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73E6BCEF-CCDC-4172-B695-6F61CDF8328C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69D6FC3E-6119-40FF-83D1-FA5D28860682}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69D6FC3E-6119-40FF-83D1-FA5D28860682}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69D6FC3E-6119-40FF-83D1-FA5D28860682}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69D6FC3E-6119-40FF-83D1-FA5D28860682}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E43942DB-EB9F-4E53-97B6-C327F69FD27C} = {565BDB3A-63CF-41C3-93C4-5F4A869276A9}
+		{1BA18A82-2C24-4320-AFC6-C2856050F89D} = {565BDB3A-63CF-41C3-93C4-5F4A869276A9}
+		{32F756D3-C24B-4D56-B6B0-73D35793B007} = {5059ACC2-D930-4154-B50F-325EAD6AE82D}
+		{0A1766E7-C9ED-415C-ADBB-9CCB7914C6E5} = {5059ACC2-D930-4154-B50F-325EAD6AE82D}
+		{D098E15A-2FAC-46F3-8059-B0007CB57EFF} = {32F756D3-C24B-4D56-B6B0-73D35793B007}
+		{BB3C9EE1-BF6B-4A20-A913-DE7D42426AD1} = {0A1766E7-C9ED-415C-ADBB-9CCB7914C6E5}
+		{73E6BCEF-CCDC-4172-B695-6F61CDF8328C} = {1BA18A82-2C24-4320-AFC6-C2856050F89D}
+		{69D6FC3E-6119-40FF-83D1-FA5D28860682} = {E43942DB-EB9F-4E53-97B6-C327F69FD27C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPathV6 = packages\EnterpriseLibrary.Common.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.6.0.1304.0\lib\portable-net45+win+wp8;packages\EnterpriseLibrary.TransientFaultHandling.Caching.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.Data.6.0.1304.1\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.ServiceBus.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.WindowsAzure.Storage.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.Configuration.6.0.1304.0\lib\NET45
+		SolutionGuid = {B3B0EAE1-4355-4809-9BB9-1D6B426B7408}
+	EndGlobalSection
+EndGlobal

@@ -324,4 +324,4 @@ packages/
 /.vs
 temp/
 *.log
-z.DreamTeam.Project.Common.DevSettings.config
+*.DevSettings.config
