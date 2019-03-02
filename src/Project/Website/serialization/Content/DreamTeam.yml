@@ -1,0 +1,19 @@
+﻿---
+ID: "0eabd278-f3a6-44b7-ab8f-3fa45f03e882"
+Parent: "0de95ae4-41ab-4d01-9eb0-67441b7c2450"
+Template: "ca1abbb9-0092-4164-8173-ce575972578e"
+Path: /sitecore/content/DreamTeam
+DB: master
+BranchID: "2822adce-b4ff-4dcd-898e-01edbd49b08d"
+SharedFields:
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{122ABC68-3FD4-4E72-82FE-C0C9A2F69286}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190302T135601Z
