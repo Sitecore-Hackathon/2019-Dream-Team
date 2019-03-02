@@ -1,5 +1,12 @@
-﻿@model DreamTeam.Feature.Banner.Models.BannerModel
+﻿@using Sitecore.Mvc
 
-<div class="component banner-component">
-    <p>Banner component</p>
-</div>
+@model DreamTeam.Feature.Banner.Models.BannerModel
+
+<article class="banner">
+    @Html.Sitecore().Field("image", new { @class = "banner__image" })
+    <div class="banner__text">
+        <h1>
+            @Html.Sitecore().Field("text")
+        </h1>
+    </div>
+</article>
