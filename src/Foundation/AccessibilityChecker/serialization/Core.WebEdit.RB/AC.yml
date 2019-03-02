@@ -7,7 +7,7 @@ DB: core
 SharedFields:
 - ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
   Hint: __Icon
-  Value: Applications/32x32/checks.png
+  Value: "AccessibilityChecker/32x32/accessibility-checker.png"
 - ID: "1bb289d6-44d7-4fcc-af15-db32b841f957"
   Hint: Click
   Value: "chrome:rendering:delete"
@@ -19,7 +19,7 @@ SharedFields:
   Value: 2000
 - ID: "e8cc41c7-c304-4282-b782-e21ca32d324c"
   Hint: Icon
-  Value: Applications/32x32/checks.png
+  Value: "AccessibilityChecker/32x32/accessibility-checker.png"
 Languages:
 - Language: da
   Fields:

@@ -8,21 +8,27 @@
     <head>
         <title>@Html.Sitecore().Field("title", new { DisableWebEdit = true })</title>
         @Html.Sitecore().VisitorIdentification()
+
+        <link rel="stylesheet" type="text/css" href="/-/media/files/dreamteam/css/vendor.css" />
+        <link rel="stylesheet" type="text/css" href="/-/media/files/dreamteam/css/main.css" />
     </head>
     <body>
-        <div class="layout">
-            <main class="layout__main">
-                @Html.Sitecore().Placeholder("main")
-            </main>
-        </div>
+        <header class="navigation">
+            <div class="logo"><img src="/-/media/files/dreamteam/images/logo" alt="logo" class="logo__img"></div>
+            <nav class="nav-bar">
+                <input class="search-input" type="search" placeholder="Search or jump to...">
+                <ul class="nav-bar__list">
+                    <li class="nav-bar__item">Home page</li>
+                    <li class="nav-bar__item">Categories page</li>
+                    <li class="nav-bar__item">Checkout</li>
+                    <li class="nav-bar__item">About us</li>
+                </ul>
+            </nav>
+        </header>
 
-        <!--
-        <h1>@Html.Sitecore().Field("title")</h1>
-        <div>
-            @Html.Sitecore().Placeholder("main")
-        </div>
+        @Html.Sitecore().Placeholder("main")
 
-
-        -->
+        <script type="text/javascript" src="/-/media/files/dreamteam/js/vendor.js"></script>
+        <script type="text/javascript" src="/-/media/files/dreamteam/js/main.js"></script>
     </body>
 </html>

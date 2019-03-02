@@ -9,6 +9,13 @@ Languages:
   Versions:
   - Version: 1
     Fields:
+    - ID: "0ace2dca-22dc-4928-aebb-46e4c01e263e"
+      Hint: Image
+      Value: |
+        <image mediaid="{DCC5DEFB-3943-4843-A3C2-FABA213C03CC}" />
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20190302T145910Z
+    - ID: "d2a17b20-c8eb-4b17-a1c9-394f2a8f53ce"
+      Hint: Text
+      Value: Sitecore Experience Platform
