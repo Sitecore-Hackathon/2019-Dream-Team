@@ -98,9 +98,6 @@
     <AdditionalFiles Include="..\..\..\Project\Common\code\stylecop.json">
       <Link>stylecop.json</Link>
     </AdditionalFiles>
-    <None Include="..\..\..\Project\Common\code\Views\Web.config">
-      <Link>Views\Web.config</Link>
-    </None>
     <Content Include="App_Config\Include\Foundation\DreamTeam.Foundation.Serialization.Settings.config" />
     <Content Include="App_Config\Include\Foundation\DreamTeam.Foundation.Serialization.config">
       <SubType>Designer</SubType>
@@ -134,6 +131,9 @@
       <SubType>Designer</SubType>
     </None>
     <None Include="Properties\PublishProfiles\local.pubxml" />
+    <None Include="Views\Web.config">
+      <SubType>Designer</SubType>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Analyzer Include="..\..\..\..\packages\StyleCop.Analyzers.1.0.2\analyzers\dotnet\cs\StyleCop.Analyzers.CodeFixes.dll" />
