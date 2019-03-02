@@ -327,4 +327,4 @@ temp/
 *.log
 *.DevSettings.config
 
-**/StyleCop.Cache
+StyleCop.Cache
