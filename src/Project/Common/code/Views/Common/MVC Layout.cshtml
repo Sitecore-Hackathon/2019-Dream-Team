@@ -10,9 +10,19 @@
         @Html.Sitecore().VisitorIdentification()
     </head>
     <body>
+        <div class="layout">
+            <main class="layout__main">
+                @Html.Sitecore().Placeholder("main")
+            </main>
+        </div>
+
+        <!--
         <h1>@Html.Sitecore().Field("title")</h1>
         <div>
             @Html.Sitecore().Placeholder("main")
         </div>
+
+
+        -->
     </body>
 </html>
