@@ -556,7 +556,7 @@
     <Content Include="App_Config\Include\Project\DreamTeam.Project.Common.config" />
     <None Include="packages.config" />
     <AdditionalFiles Include="stylecop.json" />
-    <Content Include="Views\Shared\MVC Layout.cshtml" />
+    <Content Include="Views\Common\MVC Layout.cshtml" />
     <None Include="Properties\PublishProfiles\local.pubxml" />
     <None Include="Views\Web.config">
       <SubType>Designer</SubType>
