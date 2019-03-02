@@ -27,8 +27,6 @@ gulp.task("default", function(callback) {
 		callback);
 });
 
-
-
 /*****************************
   Helpers
 *****************************/
