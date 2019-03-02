@@ -25,6 +25,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DreamTeam.Foundation.Serial
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DreamTeam.Foundation.AccessibilityChecker", "src\Foundation\AccessibilityChecker\code\DreamTeam.Foundation.AccessibilityChecker.csproj", "{69D6FC3E-6119-40FF-83D1-FA5D28860682}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Banner", "Banner", "{B1C5753A-E276-48B9-99A5-03972CA5357B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DreamTeam.Feature.Banner", "src\Feature\Banner\code\DreamTeam.Feature.Banner.csproj", "{7565E9CF-39F8-45B0-8858-C10E7C32672D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DependencyInjection", "DependencyInjection", "{FDFA60B5-15B3-4E15-8A94-C4C55017C9C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DreamTeam.Foundation.DependencyInjection", "src\Foundation\DependencyInjection\code\DreamTeam.Foundation.DependencyInjection.csproj", "{5BBC67DD-8A30-4074-A1B5-EB240C877A0D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -47,6 +55,14 @@ Global
 		{69D6FC3E-6119-40FF-83D1-FA5D28860682}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{69D6FC3E-6119-40FF-83D1-FA5D28860682}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{69D6FC3E-6119-40FF-83D1-FA5D28860682}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7565E9CF-39F8-45B0-8858-C10E7C32672D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7565E9CF-39F8-45B0-8858-C10E7C32672D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7565E9CF-39F8-45B0-8858-C10E7C32672D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7565E9CF-39F8-45B0-8858-C10E7C32672D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BBC67DD-8A30-4074-A1B5-EB240C877A0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BBC67DD-8A30-4074-A1B5-EB240C877A0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BBC67DD-8A30-4074-A1B5-EB240C877A0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BBC67DD-8A30-4074-A1B5-EB240C877A0D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -60,6 +76,10 @@ Global
 		{BB3C9EE1-BF6B-4A20-A913-DE7D42426AD1} = {0A1766E7-C9ED-415C-ADBB-9CCB7914C6E5}
 		{73E6BCEF-CCDC-4172-B695-6F61CDF8328C} = {1BA18A82-2C24-4320-AFC6-C2856050F89D}
 		{69D6FC3E-6119-40FF-83D1-FA5D28860682} = {E43942DB-EB9F-4E53-97B6-C327F69FD27C}
+		{B1C5753A-E276-48B9-99A5-03972CA5357B} = {4D7CF36F-4B05-4EAB-86BD-DBF938705B70}
+		{7565E9CF-39F8-45B0-8858-C10E7C32672D} = {B1C5753A-E276-48B9-99A5-03972CA5357B}
+		{FDFA60B5-15B3-4E15-8A94-C4C55017C9C7} = {565BDB3A-63CF-41C3-93C4-5F4A869276A9}
+		{5BBC67DD-8A30-4074-A1B5-EB240C877A0D} = {FDFA60B5-15B3-4E15-8A94-C4C55017C9C7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		EnterpriseLibraryConfigurationToolBinariesPathV6 = packages\EnterpriseLibrary.Common.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.6.0.1304.0\lib\portable-net45+win+wp8;packages\EnterpriseLibrary.TransientFaultHandling.Caching.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.Data.6.0.1304.1\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.ServiceBus.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.WindowsAzure.Storage.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.Configuration.6.0.1304.0\lib\NET45
