@@ -225,12 +225,10 @@
       <SubType>Designer</SubType>
     </Content>
     <None Include="packages.config" />
-    <None Include="Properties\PublishProfiles\local.pubxml">
-      <SubType>Designer</SubType>
-    </None>
     <Content Include="sitecore\shell\client\Sitecore\ExperienceEditor\Commands\AccessibilityChecker.js" />
     <Content Include="sitecore\shell\client\Sitecore\Speak\Ribbon\accessibility-checker.png" />
     <Content Include="sitecore\shell\Themes\Standard\AccessibilityChecker.zip" />
+    <None Include="Properties\PublishProfiles\local.pubxml" />
     <None Include="Views\Web.config">
       <SubType>Designer</SubType>
     </None>
