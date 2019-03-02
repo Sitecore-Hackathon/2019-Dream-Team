@@ -1,0 +1,14 @@
+﻿---
+ID: "9f4f1e26-9426-4fdc-ba7c-8ed342c3927d"
+Parent: "d8fdf7b2-79ff-4525-9340-8c61a044c498"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Project/DreamTeam/Common/Page/Content
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190302T122332Z

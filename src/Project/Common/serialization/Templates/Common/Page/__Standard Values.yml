@@ -1,0 +1,32 @@
+﻿---
+ID: "d0518c15-c764-432d-bd6b-d482c9fcbaef"
+Parent: "d8fdf7b2-79ff-4525-9340-8c61a044c498"
+Template: "d8fdf7b2-79ff-4525-9340-8c61a044c498"
+Path: /sitecore/templates/Project/DreamTeam/Common/Page/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: "{D8FDF7B2-79FF-4525-9340-8C61A044C498}"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{3244F39C-107C-46AF-9D46-73610D234CAA}" />
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190302T121720Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
