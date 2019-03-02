@@ -1,8 +1,8 @@
 ﻿---
-ID: "54a73ade-5705-4883-8abb-c76197803dbb"
-Parent: "0a9eecf3-19b9-418f-b96c-4da63d947326"
+ID: "80e61cc2-b46f-442a-bccc-dc8853473f4c"
+Parent: "288012fd-37af-414b-88cf-3f7688874191"
 Template: "485db7e9-0e75-4194-9bb8-203de5abf21c"
-Path: /sitecore/content/Applications/WebEdit/Ribbons/WebEdit/Page Editor/Proofing/Accessibility Checker
+Path: /sitecore/content/Applications/WebEdit/Ribbons/Preview/Accessibility/Accessibility Checker/Accessibility Checker
 DB: core
 SharedFields:
 - ID: "1193b1a3-0148-413f-a979-49b39aa4a2af"
