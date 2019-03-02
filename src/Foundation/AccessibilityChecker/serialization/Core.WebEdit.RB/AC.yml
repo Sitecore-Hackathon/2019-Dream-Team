@@ -11,6 +11,9 @@ SharedFields:
 - ID: "1bb289d6-44d7-4fcc-af15-db32b841f957"
   Hint: Click
   Value: "chrome:rendering:delete"
+- ID: "a54ec0df-3193-44e4-b7ba-cdabbbfa2d46"
+  Hint: Parameters
+  Value: 
 - ID: "b6cecdef-740c-406f-bce4-06ab367e623a"
   Hint: Type
   Value: Sticky
