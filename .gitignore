@@ -318,3 +318,10 @@ ASALocalRun/
 
 # MSBuild Binary and Structured Log
 *.binlog
+/node_modules
+packages/
+*-lock.json
+/.vs
+temp/
+*.log
+z.DreamTeam.Project.Common.DevSettings.config
