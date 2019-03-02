@@ -1,0 +1,14 @@
+﻿---
+ID: "016253da-16df-467b-8a05-c8dd9b99ca7d"
+Parent: "7284d269-b219-4100-aacc-d42e39220548"
+Template: "7284d269-b219-4100-aacc-d42e39220548"
+Path: /sitecore/templates/Project/DreamTeam/Common/Home Page/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190302T121911Z

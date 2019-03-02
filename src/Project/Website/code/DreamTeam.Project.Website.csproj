@@ -74,15 +74,15 @@
     <Content Include="..\..\Common\code\stylecop.json">
       <Link>stylecop.json</Link>
     </Content>
-    <None Include="..\..\Common\code\Views\Web.config">
-      <Link>Views\Web.config</Link>
-    </None>
     <Content Include="App_Config\Include\Project\DreamTeam.Project.Website.Serialization.config">
       <SubType>Designer</SubType>
     </Content>
     <Content Include="App_Config\Include\Project\DreamTeam.Project.Website.config" />
     <None Include="packages.config" />
     <None Include="Properties\PublishProfiles\local.pubxml" />
+    <None Include="Views\Web.config">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="web.config" />
     <None Include="web.Debug.config">
       <DependentUpon>web.config</DependentUpon>
