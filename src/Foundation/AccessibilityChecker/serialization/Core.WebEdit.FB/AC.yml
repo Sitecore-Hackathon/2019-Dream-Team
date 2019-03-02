@@ -74,6 +74,19 @@ Languages:
   Versions:
   - Version: 1
     Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r>
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              id="{4448646E-510C-4D35-B3B1-220029823620}"
+              par="PageCodeScriptFileName=%2fsitecore%2fshell%2fclient%2fSitecore%2fExperienceEditor%2fCommands%2fAccessibilityChecker.js&amp;Command=AccessibilityChecker&amp;Click=trigger%3abutton%3aclick"
+              uid="{1338655D-073E-4E5E-AA07-19494D04E5F8}" />
+          </d>
+        </r>
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20100226T134000Z

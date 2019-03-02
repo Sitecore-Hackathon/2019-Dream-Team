@@ -2,9 +2,9 @@
 {
     using System.Web.Mvc;
     using System.Web.Routing;
-    using Sitecore.Pipelines;
+    using global::Sitecore.Pipelines;
 
-    public class InitializeRoutes : Sitecore.Mvc.Pipelines.Loader.InitializeRoutes
+    public class InitializeRoutes : global::Sitecore.Mvc.Pipelines.Loader.InitializeRoutes
     {
         public override void Process(PipelineArgs args)
         {

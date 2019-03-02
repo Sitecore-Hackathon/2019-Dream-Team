@@ -5,7 +5,10 @@
         },
 
         execute: function (context) {
-            console.warn("AccessibilityChecker command is not implemented yet!");
+            ExperienceEditor.PipelinesUtil.generateRequestProcessor("DreamTeam.CheckAccessibility", function (response) {
+                var dialogFeatures = "dialogMinWidth: 850px;";
+                ExperienceEditor.Dialogs.showModalDialog(response.responseValue.value, "", dialogFeatures, null);
+            }).execute(ExperienceEditor.generatePageContext(context, ExperienceEditor.getPageEditingWindow().document));
         }
     };
 });

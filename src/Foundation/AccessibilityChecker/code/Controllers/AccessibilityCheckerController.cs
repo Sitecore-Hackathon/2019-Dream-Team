@@ -8,7 +8,7 @@
         [ActionName("Validate")]
         public ActionResult Validate()
         {
-            return null;
+            return this.View();
         }
     }
 }
