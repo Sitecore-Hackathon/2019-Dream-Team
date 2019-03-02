@@ -1,0 +1,14 @@
+﻿---
+ID: "50b0fa71-b7e6-4d64-8810-f9394ffcec2a"
+Parent: "b0968a44-1d10-435e-8975-aa6a3f8176a8"
+Template: "0437fee2-44c9-46a6-abe9-28858d9fee8c"
+Path: /sitecore/templates/Feature/DreamTeam/Banner/Datasources
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190302T115535Z
