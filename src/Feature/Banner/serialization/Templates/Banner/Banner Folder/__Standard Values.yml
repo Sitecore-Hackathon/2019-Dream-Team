@@ -1,0 +1,21 @@
+﻿---
+ID: "0628beec-777f-412d-8989-122da4fd36a7"
+Parent: "c764ffcb-3543-47cf-adfa-256a5e236c5c"
+Template: "c764ffcb-3543-47cf-adfa-256a5e236c5c"
+Path: /sitecore/templates/Feature/DreamTeam/Banner/Banner Folder/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: |
+    {C764FFCB-3543-47CF-ADFA-256A5E236C5C}
+    {9678B07B-A005-4866-9044-3AF320CE5E3A}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190302T120243Z
