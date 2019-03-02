@@ -26,15 +26,6 @@ module.exports = merge(common, {
             {
                 test: /\.(js)$/,
                 include: Path.resolve(__dirname, '../src'),
-                enforce: 'pre',
-                loader: 'eslint-loader',
-                options: {
-                    emitWarning: true,
-                }
-            },
-            {
-                test: /\.(js)$/,
-                include: Path.resolve(__dirname, '../src'),
                 loader: 'babel-loader'
             },
             {
