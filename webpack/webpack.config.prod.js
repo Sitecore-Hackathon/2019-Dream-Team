@@ -5,7 +5,6 @@ const common = require('./webpack.common.js');
 
 module.exports = merge(common, {
     mode: 'production',
-    devtool: 'source-map',
     stats: 'errors-only',
     bail: true,
     output: {
@@ -18,7 +17,7 @@ module.exports = merge(common, {
         }),
         new Webpack.optimize.ModuleConcatenationPlugin(),
         new MiniCssExtractPlugin({
-            filename: 'css/styles.css',
+            filename: "css/[name].css",
         })
     ],
     module: {

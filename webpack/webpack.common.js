@@ -8,12 +8,22 @@ module.exports = {
     },
     output: {
         path: Path.join(__dirname, '../build'),
-        filename: 'js/[name].js'
+        filename: 'js/[name].js',
     },
     optimization: {
         splitChunks: {
-            chunks: 'all',
-            name: false
+            cacheGroups: {
+                js: {
+                    test: /\.js$/,
+                    name: "vendor",
+                    chunks: "all",
+                },
+                css: {
+                    test: /\.(css|sass|scss)$/,
+                    name: "vendor",
+                    chunks: "all",
+                }
+            }
         }
     },
     plugins: [
