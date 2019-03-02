@@ -326,3 +326,5 @@ packages/
 temp/
 *.log
 *.DevSettings.config
+
+StyleCop.Cache
