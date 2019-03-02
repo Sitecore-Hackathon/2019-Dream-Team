@@ -1,0 +1,18 @@
+﻿---
+ID: "e23342a9-27c0-4685-bf71-e45037658b6c"
+Parent: "b60c0e1a-498b-4a34-8267-0f11b0c2997b"
+Template: "b60c0e1a-498b-4a34-8267-0f11b0c2997b"
+Path: /sitecore/templates/Feature/DreamTeam/Banner/Rendering Parameters/Banner Rendering Parameters/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190302T122212Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
