@@ -50,5 +50,3 @@ As well, for `Rendering` level and `Page` mode we should send generated `html` c
 
 ## Video
 Unfortunately, we didnt provided recorded video :(
-[image url]: https://cloud.google.com/vision/images/rushmore.jpg
-[AXE API]: https://www.deque.com/axe/documentation/api-documentation/
