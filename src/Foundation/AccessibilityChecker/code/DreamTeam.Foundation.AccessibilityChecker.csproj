@@ -191,6 +191,9 @@
     <Reference Include="Sitecore.ItemWebApi, Version=3.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\..\..\..\packages\Sitecore.ItemWebApi.9.1.0\lib\net471\Sitecore.ItemWebApi.dll</HintPath>
     </Reference>
+    <Reference Include="Sitecore.ExperienceEditor, Version=5.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\packages\Sitecore.ExperienceEditor.9.1.0\lib\net471\Sitecore.ExperienceEditor.dll</HintPath>
+    </Reference>
     <Reference Include="Sitecore.Kernel, Version=12.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\..\..\..\packages\Sitecore.Kernel.9.1.0\lib\net471\Sitecore.Kernel.dll</HintPath>
       <Private>False</Private>
@@ -342,9 +345,16 @@
       <Link>GlobalSuppressions.cs</Link>
     </Compile>
     <Compile Include="Controllers\AccessibilityCheckerController.cs" />
+    <Compile Include="Extensions\ItemExtensions.cs" />
     <Compile Include="Pipelines\Initialize\InitializeRoutes.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Sitecore.Experienceeditor.Speak.Requests\AccessibilityChecker.cs" />
+    <Compile Include="Renderer\ItemRenderer.cs" />
+    <Compile Include="RenderingContext\PageRenderItemDefinitionContext.cs" />
+    <Compile Include="RenderingContext\PerformItemRendering.cs" />
+    <Compile Include="WebEdit\Commands\FieldAccessibilityCheckerCommand.cs" />
+    <Compile Include="WebEdit\Commands\PageAccessibilityCheckerCommand.cs" />
+    <Compile Include="WebEdit\Commands\ComponentAccessibilityCheckerCommand.cs" />
   </ItemGroup>
   <ItemGroup>
     <AdditionalFiles Include="..\..\..\Project\Common\code\stylecop.json">
@@ -355,6 +365,7 @@
       <SubType>Designer</SubType>
     </Content>
     <None Include="packages.config" />
+    <Content Include="sitecore\shell\Applications\Page Modes\ChromeTypes\RenderingChromeType.js" />
     <Content Include="sitecore\shell\client\Sitecore\ExperienceEditor\Commands\AccessibilityChecker.js" />
     <Content Include="sitecore\shell\client\Sitecore\Speak\Ribbon\accessibility-checker.png" />
     <Content Include="sitecore\shell\Themes\Standard\AccessibilityChecker.zip" />

@@ -7,13 +7,11 @@ DB: core
 SharedFields:
 - ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
   Hint: __Icon
-  Value: "AccessibilityChecker/32x32/accessibility-checker.png"
+  Value: Applications/32x32/checks.png
 - ID: "1bb289d6-44d7-4fcc-af15-db32b841f957"
   Hint: Click
-  Value: "chrome:rendering:delete"
-- ID: "a54ec0df-3193-44e4-b7ba-cdabbbfa2d46"
-  Hint: Parameters
-  Value: 
+  Value: |
+    chrome:rendering:runcommand({command:"webedit:component:accessibility"})
 - ID: "b6cecdef-740c-406f-bce4-06ab367e623a"
   Hint: Type
   Value: Sticky
@@ -22,7 +20,7 @@ SharedFields:
   Value: 2000
 - ID: "e8cc41c7-c304-4282-b782-e21ca32d324c"
   Hint: Icon
-  Value: "AccessibilityChecker/32x32/accessibility-checker.png"
+  Value: Applications/32x32/checks.png
 Languages:
 - Language: da
   Fields:

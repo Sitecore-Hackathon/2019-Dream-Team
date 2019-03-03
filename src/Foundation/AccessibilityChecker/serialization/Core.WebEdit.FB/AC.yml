@@ -10,7 +10,8 @@ SharedFields:
   Value: "AccessibilityChecker/32x32/accessibility-checker.png"
 - ID: "1bb289d6-44d7-4fcc-af15-db32b841f957"
   Hint: Click
-  Value: "chrome:rendering:delete"
+  Value: |
+    chrome:rendering:runcommand({command:"webedit:field:accessibility"})
 - ID: "b6cecdef-740c-406f-bce4-06ab367e623a"
   Hint: Type
   Value: Sticky
