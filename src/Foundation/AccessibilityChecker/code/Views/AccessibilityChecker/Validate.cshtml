@@ -1,1 +1,16 @@
-﻿<div id="accessibility-result"></div>
+﻿<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<body>
+    <div id="accessibility-result"></div>
+
+    <script type="text/javascript" src="/-/media/files/dreamteam/js/vendor.js"></script>
+    <script type="text/javascript">
+        window.onload = function (e) {
+            console.log('bingo');
+            window.axe.run(document, {}, function (data) {
+                console.log(data);
+            });
+        };
+    </script>
+</body>
+</html>
