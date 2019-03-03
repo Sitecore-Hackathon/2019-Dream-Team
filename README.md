@@ -30,13 +30,13 @@ For proper Unicorn serialization, please, copy `DreamTeam.Project.Common.DevSett
 
 ### Web site
 Accessibility Checker can be accessed by Content Editors from Experience Editor. Once, you rendered any page we will have ability to review accessibility of particular field (in our case, we used `Image` field type):
-![Image Field Accessibility Check Button](documentation/images/Image Field Accessibility Check.png?raw=true "Image Field Accessibility Check Button")
+![Image Field Accessibility Check Button](documentation/images/ImageFieldAccessibilityCheck.png?raw=true "Image Field Accessibility Check Button")
 
 accessibility of the whole rendering:
-![Rendering Accessibility Check Button](documentation/images/Component Accessibility Check.png?raw=true "Image Field Accessibility Check Button")
+![Rendering Accessibility Check Button](documentation/images/ComponentAccessibilityCheck.png?raw=true "Image Field Accessibility Check Button")
 
 and verify and suggest how to improve accessibility of the page:
-![Page Accessibility Check Button](documentation/images/Page Level Accessibility Check.png?raw=true "Page Accessibility Check Button")
+![Page Accessibility Check Button](documentation/images/PageLevelAccessibilityCheck.png?raw=true "Page Accessibility Check Button")
 
 In testing purposes, we made a stubs in calling 3rd party services for accessibility validation due to `API KEY` and non-free services uses.
 
